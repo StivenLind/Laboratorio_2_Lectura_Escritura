@@ -10,7 +10,7 @@
         <h1>Sistemas Reproductor de videos</h1>
         <ul>
             <li><a href="agregarVideo.jsp">Ingreasar un nuevo video </a></li>
-            <li>second</li>
+            <li><a href="ListarVideo">listar los videos</a></li>
             <li>third</li>
         </ul>
 

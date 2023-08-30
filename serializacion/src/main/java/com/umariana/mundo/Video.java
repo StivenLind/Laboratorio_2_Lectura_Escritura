@@ -3,7 +3,7 @@ package com.umariana.mundo;
 
 public class Video {
     
-    private String idVideo;
+    private int idVideo;
     private String titulo;
     private String autor;
     private String anio;
@@ -14,7 +14,7 @@ public class Video {
     public Video() {
     }
 
-    public Video(String idVideo, String titulo, String autor, String anio, String categoria, String url, String letra) {
+    public Video(int idVideo, String titulo, String autor, String anio, String categoria, String url, String letra) {
         this.idVideo = idVideo;
         this.titulo = titulo;
         this.autor = autor;
@@ -24,7 +24,7 @@ public class Video {
         this.letra = letra;
     }
 
-    public String getIdVideo() {
+    public int getIdVideo() {
         return idVideo;
     }
 
